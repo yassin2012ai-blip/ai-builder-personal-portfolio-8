@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ahmad Portfolio Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2 class="logo">Ahmad.dev</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#ai">AI Assistant</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="section fade">
+  <h1>Hi, I'm Ahmad 👋</h1>
+  <p>I build websites, apps, games, and AI tools using HTML, CSS & JavaScript.</p>
+  <button onclick="scrollToSection('projects')">Explore My Work</button>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section fade">
+  <h2>My Projects 🎮</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Aim Trainer 🎯</h3>
+      <p>Improve reaction speed and accuracy.</p>
+    </div>
+
+    <div class="card">
+      <h3>Memory Game 🧠</h3>
+      <p>Test your memory skills.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mini Minecraft 🧱</h3>
+      <p>Build your own world.</p>
+    </div>
+
+    <div class="card">
+      <h3>Business Man Simulator 💼</h3>
+      <p>Start from zero and build your empire.</p>
+    </div>
+
+    <div class="card">
+      <h3>To-Do List App 📝</h3>
+      <p>Organize your daily tasks easily.</p>
+    </div>
+
+    <div class="card">
+      <h3>Code Weaver 👑</h3>
+      <p>Owner project - advanced code & website builder platform. The Website created this website <p>
+    </div>
+
+  </div>
+</section>
+
+<!-- AI ASSISTANT -->
+<section id="ai" class="section fade">
+  <h2>AI Assistant 🤖</h2>
+
+  <div class="ai-box">
+    <div id="chat"></div>
+
+    <div class="ai-input">
+      <input id="userInput" placeholder="Ask something...">
+      <button onclick="askAI()">Send</button>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade">
+  <h2>Contact Me 📩</h2>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="msg" class="success">Message sent successfully ✅</p>
+
+  <div class="links">
+    <a href="mailto:ahmad2yassin2012@gmail.com">📧 Email</a>
+    <a href="https://wa.me/96171585445" target="_blank">💬 WhatsApp</a>
+  </div>
+</section>
+
+<!-- FLOAT WHATSAPP -->
+<a class="float" href="https://wa.me/96171585445" target="_blank">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
